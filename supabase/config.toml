@@ -1,0 +1,13 @@
+project_id = "zlupwlifygptbxjydfie"
+
+[functions.analyze-entry]
+verify_jwt = false
+
+[functions.ask-diary]
+verify_jwt = false
+
+[functions.transcribe-audio]
+verify_jwt = false
+
+[functions.text-to-speech]
+verify_jwt = false
