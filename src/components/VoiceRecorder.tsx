@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Mic, Square, Pause, Play, Loader2 } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { supabase } from '@/integrations/supabase/client';
 
 interface VoiceRecorderProps {
   onRecordingComplete: (transcript: string, duration: number) => void;

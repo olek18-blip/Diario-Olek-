@@ -20,7 +20,6 @@ import {
   DialogDescription,
 } from '@/components/ui/dialog';
 import { Switch } from '@/components/ui/switch';
-import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
 
 const premiumFeatures = [
